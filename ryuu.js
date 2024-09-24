@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
-const login = require("./fca-unofficial");
+const login = require("./pogiko/index.js");
 const { convertToGothic } = require("./utils/fontUtils.js");
 const cron = require("node-cron");
 const autopost = require("./handler/autopost.js");
