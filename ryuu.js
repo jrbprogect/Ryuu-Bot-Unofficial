@@ -1,11 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
-const login = require("./pogiko/index.js");
+const login = require("./jrpogi/fca-unofficial/index.js");
 const { convertToGothic } = require("./utils/fontUtils.js");
 const cron = require("node-cron");
 const autopost = require("./handler/autopost.js");
-const config = JSON.parse(fs.readFileSync(path.join(__dirname, "pogiko", "configs.json"), "utf8")); 
+const config = JSON.parse(fs.readFileSync(path.join(__dirname, "configs.json"), "utf8"));
 global.config = JSON.parse(fs.readFileSync("config.json", "utf8"));
 global.prefix = global.config.prefix;
 global.apiOptions = global.config.apiOptions;
