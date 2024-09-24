@@ -1,0 +1,31 @@
+{
+    "prefix": "/",
+    "owner": "Jr Busaco",
+    "apiOptions": {
+        "forceLogin": false,
+        "pauseLog": true,
+        "selfListen": false,
+        "autoReconnect": false,
+        "updatePresence": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+        "autoMarkDelivery": false,
+        "autoMarkRead": false,
+        "online": false,
+        "listenEvents": true,
+        "FCA_OPTIONS": {
+            "pauseLog": true,
+            "logLevel": "silent",
+            "selfListen": false,
+            "listenEvents": true,
+            "forceLogin": true,
+            "userAgent": "Mozilla/5.0 (Linux; Android 9; SM-G973U Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"
+        }
+    },
+    "adminBot": [
+        "100091592152325"
+    ],
+    "autoLoad": true,
+    "autopost": true,
+    "autogreet": true,
+    "proxy": "http://49.157.62.203:8181"
+}
